@@ -1,0 +1,7 @@
+values=input("Input some comma seperated values:")
+list=values.split(",")
+tup=tuple(list)
+print('List : ',list)
+print('Tuple : ',tup)
+print("The fourth element from the tuple is:", tup[3])
+print("The 4th element from last of a tuple:", tup[-4])
