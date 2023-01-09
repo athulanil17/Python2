@@ -4,5 +4,5 @@ lists=list(mylist)
 print(lists)
 str=" "
 st=str.join(lists)
-print(st)
+print("This list combined to form:",st)
 print(type(st))
